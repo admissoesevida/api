@@ -1,0 +1,37 @@
+{
+  "name": "admv-api",
+  "version": "1.0.0",
+  "description": "Responsável por prover o Backend necessário para todas as interfaces dos sistemas e aplicações da ADMV.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/admissoesevida/api.git"
+  },
+  "keywords": [
+    "admv"
+  ],
+  "author": "ADMV",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/admissoesevida/api/issues"
+  },
+  "homepage": "https://github.com/admissoesevida/api#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-session": "^2.0.0-beta.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.0",
+    "passport": "^0.4.0",
+    "passport-github": "^1.1.0",
+    "passport-google-oauth20": "^1.0.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.10.0",
+    "nodemon": "^1.18.9"
+  }
+}
